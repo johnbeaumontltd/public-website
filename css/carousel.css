@@ -1,0 +1,48 @@
+.main-text
+{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: #FFF;
+    padding: 5px 0px 15px 0px;
+    background: rgb(20, 20, 20); /* The Fallback */
+    background: rgba(20, 20, 20, 0.5); 
+}
+/*hack so text does not overlay*/
+@media(max-width:900px) { 
+    .main-text {
+        top:20%;
+    }
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.full-width {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    overflow-x: hidden;
+    -ms-interpolation-mode: bicubic
+}
+
+.carousel-inner > .item {
+    max-height: 700px;
+}
