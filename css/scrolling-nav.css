@@ -59,6 +59,18 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
+.trade-services-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+.equipment-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
 .contact-section {
     min-height: 100%;
     padding-top: 50px;
@@ -87,7 +99,7 @@ of those sections to manage the look and feel of the site. */
 .contact-section .three-shade-col .col-sm-4 p {
     margin: 0px;
 }
-.contact-section .three-shade-col .col-sm-4 ul {
+.contact-section .three-shade-col .col-sm-4 ul, .equipment-section ul {
     list-style: none;
     padding-left: 0px;
 }
