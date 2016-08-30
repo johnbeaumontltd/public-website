@@ -145,9 +145,9 @@
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #AA1111;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #AA1111;
 }

@@ -48,8 +48,7 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 .about-section {
-    min-height: 100%;
-    padding-top: 50px;
+    padding: 50px 0px;
     text-align: center;
     background: #eee;
 }
@@ -60,14 +59,12 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 .trade-services-section {
-    min-height: 100%;
-    padding-top: 50px;
+    padding: 50px 0px;
     text-align: center;
     background: #eee;
 }
 .equipment-section {
-    min-height: 100%;
-    padding-top: 50px;
+    padding: 50px 0px;
     text-align: center;
     background: #fff;
 }
